@@ -1,13 +1,12 @@
 import {
   Button,
   Image,
-  Platform,
   StyleSheet,
   Text,
   TouchableNativeFeedback,
-  TouchableOpacity,
   View,
 } from "react-native";
+import { useDispatch } from "react-redux";
 
 const ProductItem = (props: any) => {
   return (
@@ -26,7 +25,9 @@ const ProductItem = (props: any) => {
             <Image source={{ uri: props.image }} style={styles.image} />
           </View>
           <View style={styles.details}>
-            <Text>{props.title}</Text>
+            <Text style={{ fontWeight: "900", fontSize: 15 }}>
+              {props.title}
+            </Text>
             <Text>Price: {props.price}</Text>
           </View>
           <View style={styles.actions}>
@@ -40,7 +41,11 @@ const ProductItem = (props: any) => {
                 })
               }
             />
-            <Button color={"purple"} title="Add to Cart" />
+            <Button
+              color={"purple"}
+              title="Add to Cart"
+              onPress={props.tocart}
+            />
           </View>
         </View>
       </View>
@@ -79,6 +84,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 18,
     marginVertical: 4,
+    fontWeightt: "bold",
   },
   price: {
     fontSize: 14,

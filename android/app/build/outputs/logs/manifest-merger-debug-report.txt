@@ -10,6 +10,7 @@ MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /home/sainish-r
 MERGED from [com.facebook.flipper:flipper:0.125.0] /home/sainish-rajput/.gradle/caches/transforms-3/1de5dee59d1627955e42d3d6205f726e/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:8:1-18:12
 MERGED from [:react-native-safe-area-context] /home/sainish-rajput/Shopy/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /home/sainish-rajput/Shopy/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] /home/sainish-rajput/Shopy/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:react-android:0.71.8] /home/sainish-rajput/.gradle/caches/transforms-3/22566865d31ef74cdd0cb020b75ed98d/transformed/jetified-react-android-0.71.8-debug/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/61d40ffb2f470954573454bf76bc5917/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.react:hermes-android:0.71.8] /home/sainish-rajput/.gradle/caches/transforms-3/c03d8241981f4d52632c5c158e550467/transformed/jetified-hermes-android-0.71.8-debug/AndroidManifest.xml:2:1-9:12
@@ -178,6 +179,8 @@ MERGED from [:react-native-safe-area-context] /home/sainish-rajput/Shopy/node_mo
 MERGED from [:react-native-safe-area-context] /home/sainish-rajput/Shopy/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /home/sainish-rajput/Shopy/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /home/sainish-rajput/Shopy/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /home/sainish-rajput/Shopy/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /home/sainish-rajput/Shopy/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-android:0.71.8] /home/sainish-rajput/.gradle/caches/transforms-3/22566865d31ef74cdd0cb020b75ed98d/transformed/jetified-react-android-0.71.8-debug/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-android:0.71.8] /home/sainish-rajput/.gradle/caches/transforms-3/22566865d31ef74cdd0cb020b75ed98d/transformed/jetified-react-android-0.71.8-debug/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/61d40ffb2f470954573454bf76bc5917/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44

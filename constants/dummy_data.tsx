@@ -6,7 +6,7 @@ const dummy = [
       "https://cdn.pixabay.com/photo/2016/10/02/22/17/red-t-shirt-1710578_1280.jpg",
     title: "Red Shirt",
     description: "A red t-shirt, perfect for days with non-red weather.",
-    price: 29.99,
+    price: 2999,
   },
   {
     id: "p2",
@@ -16,7 +16,7 @@ const dummy = [
     title: "Blue Carpet",
 
     description: "Fits your red shirt perfectly. To stand on. Not to wear it.",
-    price: 99.99,
+    price: 9999,
   },
   {
     id: "p3",
@@ -26,7 +26,7 @@ const dummy = [
     title: "Coffee Mug",
 
     description: "Can also be used for tea!",
-    price: 8.99,
+    price: 899,
   },
   {
     id: "p4",
@@ -36,7 +36,7 @@ const dummy = [
     title: "The Book - Limited Edition",
     description:
       "What the content is? Why would that matter? It's a limited edition!",
-    price: 15.99,
+    price: 1599,
   },
   {
     id: "p5",
@@ -46,7 +46,7 @@ const dummy = [
     title: "PowerBook",
     description:
       "Awesome hardware, crappy keyboard and a hefty price. Buy now before a new one is released!",
-    price: 2299.99,
+    price: 229999,
   },
   {
     id: "p6",
@@ -56,7 +56,7 @@ const dummy = [
     title: "Pen & Paper",
     description:
       "Can be used for role-playing (not the kind of role-playing you're thinking about...).",
-    price: 5.49,
+    price: 549,
   },
 ];
 export default dummy;
