@@ -14,6 +14,7 @@ import { addtocart } from "../../redux-duck/slices/cartslice";
 
 const ProductOverview = (props: any) => {
   const dispatch = useDispatch();
+
   const product = useSelector(
     (state: RootState) => state.products.availableProducts
   );

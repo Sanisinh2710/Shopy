@@ -6,13 +6,12 @@ const MyCart = (props: any) => {
       <View style={styles.card}>
         <Image source={{ uri: props.img }} style={styles.img} />
         <View style={styles.det}>
-          <Text style={styles.text}>Title:{props.productTitle}</Text>
+          <Text style={[styles.text]}>Title:{props.productTitle}</Text>
           <Text style={styles.text}>Price:{props.productPrice}</Text>
           <Text style={styles.text}>Quantity:{props.quantity}</Text>
           <Text style={styles.text}>Total Price:{props.sum}</Text>
         </View>
       </View>
-      <View></View>
     </View>
   );
 };
@@ -20,7 +19,7 @@ const MyCart = (props: any) => {
 const styles = StyleSheet.create({
   container: {
     margin: 10,
-    shadowOpacity: 1,
+    shadowOpacity: 10,
     shadowRadius: 8,
     elevation: 10,
     borderRadius: 10,
@@ -37,6 +36,7 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 15,
     marginLeft: 10,
+    fontWeight: "600",
   },
   img: {
     borderBottomLeftRadius: 10,

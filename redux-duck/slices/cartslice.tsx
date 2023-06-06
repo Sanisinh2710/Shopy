@@ -43,8 +43,39 @@ export const cartSlice = createSlice({
         };
       }
     },
+    deletefromcart: (state: any, action) => {
+      const selectedItem = state.items[action.payload.productID];
+
+      const currentquantity = selectedItem.quantity;
+      let updatedItems;
+
+      if (currentquantity > 1) {
+        const updatedItem = {
+          quantity: selectedItem.quantity - 1,
+          productPrice: selectedItem.productPrice,
+          productTitle: selectedItem.productTitle,
+          sum: selectedItem.sum - selectedItem.productPrice,
+          image: selectedItem.image,
+        };
+
+        updatedItems = {
+          ...state.items,
+          [action.payload.productID]: updatedItem,
+        };
+      } else {
+        updatedItems = {
+          ...state.items,
+        };
+        delete updatedItems[action.payload.productID];
+      }
+      return {
+        ...state,
+        items: updatedItems,
+        totalAmmount: state.totalAmmount - selectedItem.productPrice,
+      };
+    },
   },
 });
 
 export default cartSlice.reducer;
-export const { addtocart } = cartSlice.actions;
+export const { addtocart, deletefromcart } = cartSlice.actions;
