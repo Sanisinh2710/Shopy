@@ -32,3 +32,4 @@ com.shopy.app-debug-30 /home/sainish-rajput/Shopy/android/app/src/debug/res
 com.shopy.app-main-31 /home/sainish-rajput/Shopy/android/app/src/main/res
 com.shopy.app-packaged_res-32 /home/sainish-rajput/Shopy/node_modules/react-native-safe-area-context/android/build/intermediates/packaged_res/debug
 com.shopy.app-packaged_res-33 /home/sainish-rajput/Shopy/node_modules/react-native-screens/android/build/intermediates/packaged_res/debug
+com.shopy.app-packaged_res-34 /home/sainish-rajput/Shopy/node_modules/react-native-vector-icons/android/build/intermediates/packaged_res/debug

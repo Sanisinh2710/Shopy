@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     shadowRadius: 8,
     elevation: 10,
     borderRadius: 10,
-    backgroundColor: "white",
+    backgroundColor: "#949494",
     height: 100,
     marginVertical: 20,
   },

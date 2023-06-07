@@ -31,7 +31,7 @@ const Cart = (props: any) => {
     return array;
   });
 
-  const isDarkMode = useColorScheme() === "light";
+  const isDarkMode = useColorScheme() === "dark";
   const dispatch = useDispatch();
 
   // console.log(isDarkMode);
@@ -43,12 +43,12 @@ const Cart = (props: any) => {
   return (
     <View style={Styles.screen}>
       {onCartProducts.length === 0 ? (
-        <View style={Styles.nodata}>
+        <View style={[Styles.nodata]}>
           <Text
             style={[
               Styles.nodat,
               {
-                color: isDarkMode ? "black" : "white",
+                color: "black",
               },
             ]}
           >
@@ -109,7 +109,9 @@ const Cart = (props: any) => {
                     </DataTable.Header>
                     {onCartProducts.map((product) => (
                       <DataTable.Row key={product.productID}>
-                        <DataTable.Cell>{product.productTitle}</DataTable.Cell>
+                        <DataTable.Cell style={{ justifyContent: "center" }}>
+                          {product.productTitle}
+                        </DataTable.Cell>
                         <DataTable.Cell>{product.quantity}</DataTable.Cell>
                         <DataTable.Cell>{product.sum}</DataTable.Cell>
                         <DataTable.Cell>
@@ -118,7 +120,7 @@ const Cart = (props: any) => {
                               dispatch(deletefromcart(product));
                             }}
                           >
-                            <ICON name="trash" size={25} />
+                            <ICON name="trash" size={25} color={"purple"} />
                           </TouchableOpacity>
                         </DataTable.Cell>
                       </DataTable.Row>
