@@ -8,12 +8,14 @@ MERGED from /home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /home/sainish-rajput/.gradle/caches/transforms-3/512e42cc0c381508f2d1b1ddcc0193bd/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /home/sainish-rajput/.gradle/caches/transforms-3/db3a645b5c401b5669a12f79ae5c6c0c/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper:0.125.0] /home/sainish-rajput/.gradle/caches/transforms-3/1de5dee59d1627955e42d3d6205f726e/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:8:1-18:12
+MERGED from [:react-native-gesture-handler] /home/sainish-rajput/Shopy/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-safe-area-context] /home/sainish-rajput/Shopy/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /home/sainish-rajput/Shopy/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-vector-icons] /home/sainish-rajput/Shopy/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:react-android:0.71.8] /home/sainish-rajput/.gradle/caches/transforms-3/22566865d31ef74cdd0cb020b75ed98d/transformed/jetified-react-android-0.71.8-debug/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/61d40ffb2f470954573454bf76bc5917/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.react:hermes-android:0.71.8] /home/sainish-rajput/.gradle/caches/transforms-3/c03d8241981f4d52632c5c158e550467/transformed/jetified-hermes-android-0.71.8-debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-reanimated] /home/sainish-rajput/Shopy/node_modules/react-native-reanimated/android/build/.transforms/53a83fa6b8c399b9ca547c3dc83f8e07/transformed/jetified-react-native-reanimated-71-hermes/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fbjni:fbjni:0.3.0] /home/sainish-rajput/.gradle/caches/transforms-3/b515b38be608f5a762db9315db6d46ab/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:flipper:2.6.0] /home/sainish-rajput/.gradle/caches/transforms-3/ae99e443f33005373a1c631abeddf18e/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:stetho:2.6.0] /home/sainish-rajput/.gradle/caches/transforms-3/ad1425aacf3a864807c621770345f4ad/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:2:1-9:12
@@ -47,8 +49,8 @@ MERGED from [com.facebook.fresco:middleware:2.6.0] /home/sainish-rajput/.gradle/
 MERGED from [com.facebook.fresco:ui-common:2.6.0] /home/sainish-rajput/.gradle/caches/transforms-3/05a7104067522b05c86dc7c5ba14fe4c/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/sainish-rajput/.gradle/caches/transforms-3/d032a7771287ac848f1914782f85a55e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/f0b9f43e80fd6d6d46007d03a0449aa0/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.6.0] /home/sainish-rajput/.gradle/caches/transforms-3/b29fb047d5ceb4e1e28b5eeac2bee910/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/sainish-rajput/.gradle/caches/transforms-3/ff8cf5244b1452ffe5becfa7e824ee68/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.5.0] /home/sainish-rajput/.gradle/caches/transforms-3/5443d074b6860b81a99b6cfd7a9962ad/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.sqlite:sqlite:2.1.0] /home/sainish-rajput/.gradle/caches/transforms-3/a571f1a33ae39cbb5d3e5c5b51c71d19/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/cfcf84fb74ea4e77b31ced41acc5b996/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/sainish-rajput/.gradle/caches/transforms-3/ac26a9e17786512c843a370c78c8ea62/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -175,6 +177,8 @@ MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /home/sainish-r
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /home/sainish-rajput/.gradle/caches/transforms-3/db3a645b5c401b5669a12f79ae5c6c0c/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper:0.125.0] /home/sainish-rajput/.gradle/caches/transforms-3/1de5dee59d1627955e42d3d6205f726e/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper:0.125.0] /home/sainish-rajput/.gradle/caches/transforms-3/1de5dee59d1627955e42d3d6205f726e/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-gesture-handler] /home/sainish-rajput/Shopy/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /home/sainish-rajput/Shopy/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] /home/sainish-rajput/Shopy/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] /home/sainish-rajput/Shopy/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /home/sainish-rajput/Shopy/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
@@ -187,6 +191,8 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/sainish
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/61d40ffb2f470954573454bf76bc5917/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.facebook.react:hermes-android:0.71.8] /home/sainish-rajput/.gradle/caches/transforms-3/c03d8241981f4d52632c5c158e550467/transformed/jetified-hermes-android-0.71.8-debug/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:hermes-android:0.71.8] /home/sainish-rajput/.gradle/caches/transforms-3/c03d8241981f4d52632c5c158e550467/transformed/jetified-hermes-android-0.71.8-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /home/sainish-rajput/Shopy/node_modules/react-native-reanimated/android/build/.transforms/53a83fa6b8c399b9ca547c3dc83f8e07/transformed/jetified-react-native-reanimated-71-hermes/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /home/sainish-rajput/Shopy/node_modules/react-native-reanimated/android/build/.transforms/53a83fa6b8c399b9ca547c3dc83f8e07/transformed/jetified-react-native-reanimated-71-hermes/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fbjni:fbjni:0.3.0] /home/sainish-rajput/.gradle/caches/transforms-3/b515b38be608f5a762db9315db6d46ab/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fbjni:fbjni:0.3.0] /home/sainish-rajput/.gradle/caches/transforms-3/b515b38be608f5a762db9315db6d46ab/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:flipper:2.6.0] /home/sainish-rajput/.gradle/caches/transforms-3/ae99e443f33005373a1c631abeddf18e/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
@@ -253,10 +259,10 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/sainis
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/sainish-rajput/.gradle/caches/transforms-3/d032a7771287ac848f1914782f85a55e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/f0b9f43e80fd6d6d46007d03a0449aa0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/f0b9f43e80fd6d6d46007d03a0449aa0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.6.0] /home/sainish-rajput/.gradle/caches/transforms-3/b29fb047d5ceb4e1e28b5eeac2bee910/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /home/sainish-rajput/.gradle/caches/transforms-3/b29fb047d5ceb4e1e28b5eeac2bee910/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/sainish-rajput/.gradle/caches/transforms-3/ff8cf5244b1452ffe5becfa7e824ee68/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/sainish-rajput/.gradle/caches/transforms-3/ff8cf5244b1452ffe5becfa7e824ee68/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.5.0] /home/sainish-rajput/.gradle/caches/transforms-3/5443d074b6860b81a99b6cfd7a9962ad/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.5.0] /home/sainish-rajput/.gradle/caches/transforms-3/5443d074b6860b81a99b6cfd7a9962ad/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.sqlite:sqlite:2.1.0] /home/sainish-rajput/.gradle/caches/transforms-3/a571f1a33ae39cbb5d3e5c5b51c71d19/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite:2.1.0] /home/sainish-rajput/.gradle/caches/transforms-3/a571f1a33ae39cbb5d3e5c5b51c71d19/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/cfcf84fb74ea4e77b31ced41acc5b996/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44

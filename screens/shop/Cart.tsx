@@ -13,7 +13,8 @@ import { FlatList } from "react-native";
 import MyCart from "../../components/shop/MyCart";
 import { DataTable } from "react-native-paper";
 import ICON from "react-native-vector-icons/FontAwesome";
-import { deletefromcart } from "../../redux-duck/slices/cartslice";
+import { deletefromcart } from "../../redux-duck/slices/cartSlice";
+import { placeorders } from "../../redux-duck/slices/ordersSlice";
 
 const Cart = (props: any) => {
   const onCartProducts = useSelector((state: RootState) => {
@@ -43,7 +44,7 @@ const Cart = (props: any) => {
   return (
     <View style={Styles.screen}>
       {onCartProducts.length === 0 ? (
-        <View style={[Styles.nodata]}>
+        <View style={Styles.nodata}>
           <Text
             style={[
               Styles.nodat,
@@ -59,7 +60,6 @@ const Cart = (props: any) => {
         <View>
           <View style={Styles.flacon}>
             <FlatList
-              contentContainerStyle={{ flexGrow: 1 }}
               data={onCartProducts}
               keyExtractor={(item) => item.productID}
               renderItem={({ item }) => (
@@ -128,7 +128,12 @@ const Cart = (props: any) => {
                   </DataTable>
                 </View>
                 <Text style={Styles.txt2}>Total Price : {totalAmmount}</Text>
-                <Button title="Order Now" />
+                <Button
+                  title="Order Now"
+                  onPress={() => {
+                    dispatch(placeorders({ onCartProducts, totalAmmount }));
+                  }}
+                />
               </View>
             </View>
           </ScrollView>

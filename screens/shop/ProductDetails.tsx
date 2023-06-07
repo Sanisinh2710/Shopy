@@ -10,7 +10,7 @@ import {
 } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../redux-duck/store";
-import { addtocart } from "../../redux-duck/slices/cartslice";
+import { addtocart } from "../../redux-duck/slices/cartSlice";
 
 const ProductDetails = (props: any) => {
   const { id } = props.route.params;

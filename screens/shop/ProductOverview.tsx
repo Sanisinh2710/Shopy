@@ -10,7 +10,7 @@ import {
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../redux-duck/store";
 import ProductItem from "../../components/shop/ProductItem";
-import { addtocart } from "../../redux-duck/slices/cartslice";
+import { addtocart } from "../../redux-duck/slices/cartSlice";
 
 const ProductOverview = (props: any) => {
   const dispatch = useDispatch();

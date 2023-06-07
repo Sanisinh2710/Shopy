@@ -5,6 +5,7 @@
  * @format
  */
 
+import "react-native-gesture-handler";
 import React from "react";
 import type { PropsWithChildren } from "react";
 import {
@@ -22,6 +23,7 @@ import { Provider } from "react-redux";
 import { store } from "./redux-duck/store";
 import { NavigationContainer } from "@react-navigation/native";
 import Myscreens from "./Navigation/ShopNavigator";
+import DrawerNav from "./Navigation/ShopNavigator";
 
 function App(): JSX.Element {
   const isDarkMode = useColorScheme() === "dark";
@@ -33,7 +35,7 @@ function App(): JSX.Element {
   return (
     <Provider store={store}>
       <NavigationContainer>
-        <Myscreens />
+        <DrawerNav />
       </NavigationContainer>
     </Provider>
   );
