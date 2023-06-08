@@ -20,10 +20,10 @@ import {
 
 import { Colors } from "react-native/Libraries/NewAppScreen";
 import { Provider } from "react-redux";
-import { store } from "./redux-duck/store";
+import { persistor, store } from "./src/redux-duck/store";
 import { NavigationContainer } from "@react-navigation/native";
-import Myscreens from "./Navigation/ShopNavigator";
-import DrawerNav from "./Navigation/ShopNavigator";
+import DrawerNav from "./src/Navigation/ShopNavigator";
+import { PersistGate } from "redux-persist/integration/react";
 
 function App(): JSX.Element {
   const isDarkMode = useColorScheme() === "dark";
@@ -34,9 +34,11 @@ function App(): JSX.Element {
 
   return (
     <Provider store={store}>
-      <NavigationContainer>
-        <DrawerNav />
-      </NavigationContainer>
+      <PersistGate loading={<Text>Loding</Text>} persistor={persistor}>
+        <NavigationContainer>
+          <DrawerNav />
+        </NavigationContainer>
+      </PersistGate>
     </Provider>
   );
 }
