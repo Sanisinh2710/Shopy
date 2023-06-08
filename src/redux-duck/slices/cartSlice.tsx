@@ -74,8 +74,11 @@ export const cartSlice = createSlice({
         totalAmmount: state.totalAmmount - selectedItem.productPrice,
       };
     },
+    deleteAll: (state: any, action) => {
+      return initialState;
+    },
   },
 });
 
 export default cartSlice.reducer;
-export const { addtocart, deletefromcart } = cartSlice.actions;
+export const { addtocart, deletefromcart, deleteAll } = cartSlice.actions;

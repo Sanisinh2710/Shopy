@@ -4,6 +4,7 @@ import {
   ScrollView,
   StyleSheet,
   Text,
+  ToastAndroid,
   TouchableOpacity,
   View,
   useColorScheme,
@@ -14,7 +15,7 @@ import { FlatList } from "react-native";
 import MyCart from "../../components/shop/MyCart";
 import { DataTable, Title } from "react-native-paper";
 import ICON from "react-native-vector-icons/FontAwesome";
-import { deletefromcart } from "../../redux-duck/slices/cartSlice";
+import { deleteAll, deletefromcart } from "../../redux-duck/slices/cartSlice";
 import { placeorders } from "../../redux-duck/slices/ordersSlice";
 
 const Cart = () => {
@@ -148,7 +149,14 @@ const Cart = () => {
                 <Button
                   title="Order Now"
                   onPress={() => {
+                    dispatch(deleteAll(null));
                     dispatch(placeorders({ onCartProducts, totalAmmount }));
+                    setTimeout(() => {
+                      ToastAndroid.show(
+                        "Plese Go to My Order Page",
+                        ToastAndroid.LONG
+                      );
+                    }, 1500);
                   }}
                 />
               </View>

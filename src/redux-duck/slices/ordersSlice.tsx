@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const initialState = {
+const initialState: { orders: { [key: string]: any }[] } = {
   orders: [],
 };
 
@@ -9,11 +9,11 @@ export const ordersSlice = createSlice({
   initialState,
   reducers: {
     placeorders: (state, action) => {
-      const order: any = {
-        orderId: new Date().toString(),
+      const order = {
+        orderId: Math.floor(Math.random() * 1000),
         items: action.payload.onCartProducts,
         totalAmmount: action.payload.totalAmmount,
-        orderDate: new Date().toDateString(),
+        orderDate: new Date().toLocaleString(),
       };
       return {
         ...state,
