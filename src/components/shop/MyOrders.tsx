@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { View, Text, Button, StyleSheet } from "react-native";
-import { color } from "react-native-reanimated";
+import { color, log } from "react-native-reanimated";
 import MyCart from "./MyCart";
 
 const OrderItem = (props: any) => {
@@ -25,9 +25,10 @@ const OrderItem = (props: any) => {
       />
       {showDetails && (
         <View style={styles.detailItems}>
-          {props.items.map((items: { [key: string]: any }) => {
+          {props.items.map((items: { [key: string]: any }, i: number) => {
             return (
               <MyCart
+                key={i}
                 productPrice={items.productPrice}
                 productTitle={items.productTitle}
                 quantity={items.quantity}

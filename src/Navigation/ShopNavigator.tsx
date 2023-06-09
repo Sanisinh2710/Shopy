@@ -9,6 +9,7 @@ import { createDrawerNavigator } from "@react-navigation/drawer";
 import MyOrders from "../screens/shop/Orders";
 import { NativeComponentType } from "react-native/Libraries/Utilities/codegenNativeComponent";
 import { ParamListBase, RouteProp } from "@react-navigation/native";
+import UserProduct from "../screens/users/UserProduct";
 
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -103,6 +104,33 @@ function DrawerNav() {
           headerTitleAlign: "center",
         })}
         component={MyOrders}
+      />
+      <Drawer.Screen
+        name="Admin"
+        options={({ navigation }) => ({
+          headerShown: true,
+          title: "User Products",
+          headerLeft: () => (
+            <TouchableOpacity
+              onPress={() => {
+                navigation.toggleDrawer();
+              }}
+            >
+              <ICON
+                name="bars"
+                size={25}
+                color={"white"}
+                style={{ marginLeft: 15 }}
+              />
+            </TouchableOpacity>
+          ),
+          headerStyle: {
+            backgroundColor: "purple",
+          },
+          headerTintColor: "#fff",
+          headerTitleAlign: "center",
+        })}
+        component={UserProduct}
       />
     </Drawer.Navigator>
   );

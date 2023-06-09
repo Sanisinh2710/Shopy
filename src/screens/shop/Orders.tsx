@@ -1,12 +1,10 @@
-import { View, FlatList } from "react-native";
+import { View, FlatList, PermissionsAndroid, Button } from "react-native";
 import { useSelector } from "react-redux";
 import { RootState } from "../../redux-duck/store";
 import OrderItem from "../../components/shop/MyOrders";
 
 const MyOrders = () => {
   const orders = useSelector((state: RootState) => state.orderItems.orders);
-
-  console.log(orders[0].items[0]);
 
   return (
     <View>

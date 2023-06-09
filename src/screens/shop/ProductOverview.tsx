@@ -5,6 +5,7 @@ import {
   Text,
   ToastAndroid,
   TouchableOpacity,
+  Vibration,
   View,
 } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
@@ -34,6 +35,7 @@ const ProductOverview = (props: any) => {
             tocart={() => {
               ToastAndroid.show("Item added successfully", ToastAndroid.LONG);
               dispatch(addtocart(itemData.item));
+              Vibration.vibrate();
             }}
           />
         )}
