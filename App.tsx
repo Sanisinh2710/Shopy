@@ -6,7 +6,7 @@
  */
 
 import "react-native-gesture-handler";
-import React from "react";
+import React, { useRef } from "react";
 import type { PropsWithChildren } from "react";
 import {
   SafeAreaView,
@@ -24,6 +24,8 @@ import { persistor, store } from "./src/redux-duck/store";
 import { NavigationContainer } from "@react-navigation/native";
 import DrawerNav from "./src/Navigation/ShopNavigator";
 import { PersistGate } from "redux-persist/integration/react";
+import Animated from "react-native-reanimated";
+import { Easing } from "react-native-reanimated";
 
 function App(): JSX.Element {
   const isDarkMode = useColorScheme() === "dark";
@@ -31,7 +33,6 @@ function App(): JSX.Element {
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
-
   return (
     <Provider store={store}>
       <PersistGate loading={<Text>Loding</Text>} persistor={persistor}>

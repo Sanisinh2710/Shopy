@@ -8,12 +8,12 @@ import {
   TouchableOpacity,
   View,
   useColorScheme,
+  FlatList,
 } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../redux-duck/store";
-import { FlatList } from "react-native";
 import MyCart from "../../components/shop/MyCart";
-import { DataTable, Title } from "react-native-paper";
+import { DataTable } from "react-native-paper";
 import ICON from "react-native-vector-icons/FontAwesome";
 import { deleteAll, deletefromcart } from "../../redux-duck/slices/cartSlice";
 import { placeorders } from "../../redux-duck/slices/ordersSlice";
@@ -93,7 +93,7 @@ const Cart = () => {
               <View>
                 <View>
                   <DataTable style={Styles.datatable}>
-                    <DataTable.Header>
+                    <DataTable.Header collapsable={true}>
                       <DataTable.Title style={{ justifyContent: "center" }}>
                         <Text style={Styles.title}>Title</Text>
                       </DataTable.Title>
@@ -109,7 +109,11 @@ const Cart = () => {
                     </DataTable.Header>
                     {onCartProducts.map((product) => (
                       <DataTable.Row key={product.productID}>
-                        <DataTable.Cell style={{ justifyContent: "center" }}>
+                        <DataTable.Cell
+                          style={{
+                            justifyContent: "center",
+                          }}
+                        >
                           {product.productTitle}
                         </DataTable.Cell>
                         <DataTable.Cell style={{ justifyContent: "center" }}>
@@ -121,24 +125,18 @@ const Cart = () => {
                         <DataTable.Cell style={{ justifyContent: "center" }}>
                           <TouchableOpacity
                             onPress={() => {
-                              Alert.alert(
-                                "Delete Item",
-                                "Are you sure want to Delete!!!",
-                                [
-                                  {
-                                    text: "No",
-                                    style: "cancel",
-                                  },
-                                  {
-                                    text: "Yes",
-                                    onPress: () =>
-                                      dispatch(deletefromcart(product)),
-                                  },
-                                ]
-                              );
+                              dispatch(deletefromcart(product));
+                            }}
+                            style={{ paddingRight: 15 }}
+                          >
+                            <ICON name="minus" size={20} color={"purple"} />
+                          </TouchableOpacity>
+                          <TouchableOpacity
+                            onPress={() => {
+                              dispatch(deletefromcart(product));
                             }}
                           >
-                            <ICON name="trash" size={25} color={"purple"} />
+                            <ICON name="plus" size={20} color={"purple"} />
                           </TouchableOpacity>
                         </DataTable.Cell>
                       </DataTable.Row>
