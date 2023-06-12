@@ -9,7 +9,7 @@ export const cartSlice = createSlice({
   name: "cartItems",
   initialState,
   reducers: {
-    addtocart: (state: any, action) => {
+    addtocart: (state, action) => {
       const adedProduct = action.payload;
       const productPrice = adedProduct.price;
       const productTitle = adedProduct.title;
@@ -43,7 +43,7 @@ export const cartSlice = createSlice({
         };
       }
     },
-    deletefromcart: (state: any, action) => {
+    deletefromcart: (state, action) => {
       const selectedItem = state.items[action.payload.productID];
 
       const currentquantity = selectedItem.quantity;
@@ -74,7 +74,7 @@ export const cartSlice = createSlice({
         totalAmmount: state.totalAmmount - selectedItem.productPrice,
       };
     },
-    deleteAll: (state: any, action) => {
+    deleteAll: (state, action) => {
       return initialState;
     },
   },

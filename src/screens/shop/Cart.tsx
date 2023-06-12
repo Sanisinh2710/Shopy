@@ -17,6 +17,7 @@ import { DataTable } from "react-native-paper";
 import ICON from "react-native-vector-icons/FontAwesome";
 import { deleteAll, deletefromcart } from "../../redux-duck/slices/cartSlice";
 import { placeorders } from "../../redux-duck/slices/ordersSlice";
+import React, { useEffect } from "react";
 
 const Cart = () => {
   const onCartProducts = useSelector((state: RootState) => {
@@ -40,6 +41,11 @@ const Cart = () => {
   const totalAmmount = useSelector(
     (state: RootState) => state.cartItems.totalAmmount
   );
+
+  const updateProducts = useSelector(
+    (state: RootState) => state.products.userProducts
+  );
+  console.log(updateProducts);
 
   return (
     <View style={Styles.screen}>

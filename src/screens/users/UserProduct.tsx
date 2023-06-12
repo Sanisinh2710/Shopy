@@ -1,37 +1,41 @@
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../redux-duck/store";
 import React from "react";
-import { Alert, Button, Share } from "react-native";
+import { Button, FlatList, View } from "react-native";
+import ProductItem from "../../components/shop/ProductItem";
+import { deleteProduct } from "../../redux-duck/slices/productsSlice";
 
-const UserProduct = () => {
+const UserProduct = (props: any) => {
+  const dispatch = useDispatch();
   const userProduct = useSelector(
     (state: RootState) => state.products.userProducts
   );
 
-  console.log(userProduct);
-  const onShare = async () => {
-    try {
-      const result = await Share.share({
-        message:
-          "React Native | A framework for building native apps using React",
-      });
-      if (result.action === Share.sharedAction) {
-        if (result.activityType) {
-          // shared with activity type of result.activityType
-        } else {
-          // shared
-        }
-      } else if (result.action === Share.dismissedAction) {
-        // dismissed
-      }
-    } catch (error: any) {
-      Alert.alert(error.message);
-    }
-  };
+  // console.log(userProduct);
+
   return (
-    <>
-      <Button title="Go" onPress={onShare} />
-    </>
+    <View>
+      <FlatList
+        data={userProduct}
+        keyExtractor={(item) => item.id}
+        renderItem={(itemData) => (
+          <ProductItem
+            id={itemData.item.id}
+            image={itemData.item.imageUrl}
+            title={itemData.item.title}
+            price={itemData.item.price}
+            navigation={props.navigation}
+          >
+            <Button color={"purple"} title="Edit" />
+            <Button
+              color={"purple"}
+              title="Delete"
+              onPress={() => dispatch(deleteProduct(itemData.item))}
+            />
+          </ProductItem>
+        )}
+      />
+    </View>
   );
 };
 

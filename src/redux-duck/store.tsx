@@ -1,7 +1,7 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import cartSlice from "./slices/cartSlice";
 import ordersSlice from "./slices/ordersSlice";
-import productsSlice from "./slices/products";
+import productsSlice from "./slices/productsSlice";
 import thunk from "redux-thunk";
 import { persistReducer, persistStore } from "redux-persist";
 

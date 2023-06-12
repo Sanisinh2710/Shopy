@@ -32,12 +32,27 @@ const ProductOverview = (props: any) => {
             title={itemData.item.title}
             price={itemData.item.price}
             navigation={props.navigation}
-            tocart={() => {
-              ToastAndroid.show("Item added successfully", ToastAndroid.LONG);
-              dispatch(addtocart(itemData.item));
-              Vibration.vibrate();
-            }}
-          />
+          >
+            <Button
+              color={"purple"}
+              title="View Details"
+              onPress={() =>
+                props.navigation.navigate("ViewProductDetails", {
+                  id: itemData.item.id,
+                  title: itemData.item.title,
+                })
+              }
+            />
+            <Button
+              color={"purple"}
+              title="Add to Cart"
+              onPress={() => {
+                ToastAndroid.show("Item added successfully", ToastAndroid.LONG);
+                dispatch(addtocart(itemData.item));
+                Vibration.vibrate();
+              }}
+            />
+          </ProductItem>
         )}
       />
       {/* <View>

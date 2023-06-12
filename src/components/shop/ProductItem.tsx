@@ -28,23 +28,7 @@ const ProductItem = (props: any) => {
             </Text>
             <Text>Price: {props.price}</Text>
           </View>
-          <View style={styles.actions}>
-            <Button
-              color={"purple"}
-              title="View Details"
-              onPress={() =>
-                props.navigation.navigate("ViewProductDetails", {
-                  id: props.id,
-                  title: props.title,
-                })
-              }
-            />
-            <Button
-              color={"purple"}
-              title="Add to Cart"
-              onPress={props.tocart}
-            />
-          </View>
+          <View style={styles.actions}>{props.children}</View>
         </View>
       </View>
     </TouchableNativeFeedback>
