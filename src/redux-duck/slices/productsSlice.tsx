@@ -13,6 +13,7 @@ export const productsSlice = createSlice({
     viewproducts: (state, action) => {
       return state;
     },
+    editProduct: (state, action) => {},
     deleteProduct: (state, action) => {
       console.log(action.payload.id);
       return {

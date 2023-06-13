@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/home/sainish-rajput/Shopy/android/app"
+    name=":app"
+    type="APP"
+    maven="Shopy:app:"
+    gradle="7.3.1"
+    buildFolder="build"
+    bootClassPath="/home/sainish-rajput/Android/Sdk/platforms/android-33/android.jar:/home/sainish-rajput/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-33">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

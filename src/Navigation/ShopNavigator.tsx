@@ -10,9 +10,11 @@ import MyOrders from "../screens/shop/Orders";
 import { NativeComponentType } from "react-native/Libraries/Utilities/codegenNativeComponent";
 import { ParamListBase, RouteProp } from "@react-navigation/native";
 import UserProduct from "../screens/users/UserProduct";
+import EditProduct from "../screens/users/EditProduct";
 
-const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
+const Stack = createNativeStackNavigator();
+const AdminStack = createNativeStackNavigator();
 
 const Myscreens = (props: any) => {
   return (
@@ -71,6 +73,66 @@ const Myscreens = (props: any) => {
   );
 };
 
+const Adminnav = (props: any) => {
+  return (
+    <AdminStack.Navigator>
+      <AdminStack.Screen
+        name="User Products"
+        component={UserProduct}
+        options={({ navigation, route }) => ({
+          headerShown: true,
+          title: "User Products",
+          headerLeft: () => (
+            <TouchableOpacity
+              onPress={() => {
+                navigation.toggleDrawer();
+              }}
+            >
+              <ICON
+                name="bars"
+                size={25}
+                color={"white"}
+                style={{ marginLeft: 15 }}
+              />
+            </TouchableOpacity>
+          ),
+          headerRight: () => (
+            <TouchableOpacity
+              onPress={() => {
+                navigation.navigate("EditProducts");
+              }}
+            >
+              <ICON
+                name="edit"
+                size={25}
+                color={"white"}
+                style={{ marginLeft: 15 }}
+              />
+            </TouchableOpacity>
+          ),
+          headerStyle: {
+            backgroundColor: "purple",
+          },
+          headerTintColor: "#fff",
+          headerTitleAlign: "center",
+        })}
+      ></AdminStack.Screen>
+      <AdminStack.Screen
+        name="EditProducts"
+        component={EditProduct}
+        options={({ route }) => ({
+          headerStyle: {
+            backgroundColor: "purple",
+          },
+          headerTintColor: "#fff",
+          headerTitleAlign: "center",
+          title: route.params ? "Edit Product" : "Add product",
+        })}
+      ></AdminStack.Screen>
+    </AdminStack.Navigator>
+  );
+};
+
 function DrawerNav() {
   return (
     <Drawer.Navigator
@@ -105,33 +167,7 @@ function DrawerNav() {
         })}
         component={MyOrders}
       />
-      <Drawer.Screen
-        name="Admin"
-        options={({ navigation }) => ({
-          headerShown: true,
-          title: "User Products",
-          headerLeft: () => (
-            <TouchableOpacity
-              onPress={() => {
-                navigation.toggleDrawer();
-              }}
-            >
-              <ICON
-                name="bars"
-                size={25}
-                color={"white"}
-                style={{ marginLeft: 15 }}
-              />
-            </TouchableOpacity>
-          ),
-          headerStyle: {
-            backgroundColor: "purple",
-          },
-          headerTintColor: "#fff",
-          headerTitleAlign: "center",
-        })}
-        component={UserProduct}
-      />
+      <Drawer.Screen name="Admin" component={Adminnav} />
     </Drawer.Navigator>
   );
 }

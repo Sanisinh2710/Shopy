@@ -17,8 +17,14 @@ const ordersConfig = {
   storage: AsyncStorage,
 };
 
+const productConfig = {
+  key: "productItems",
+  storage: AsyncStorage,
+};
+
 const cartReducer = persistReducer(cartConfig, cartSlice);
 const orderReducer = persistReducer(ordersConfig, ordersSlice);
+// const productReducer = persistReducer(productConfig);
 
 export const store = configureStore({
   reducer: {

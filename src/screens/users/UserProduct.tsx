@@ -26,7 +26,15 @@ const UserProduct = (props: any) => {
             price={itemData.item.price}
             navigation={props.navigation}
           >
-            <Button color={"purple"} title="Edit" />
+            <Button
+              color={"purple"}
+              title="Edit"
+              onPress={() =>
+                props.navigation.navigate("EditProducts", {
+                  id: itemData.item.id,
+                })
+              }
+            />
             <Button
               color={"purple"}
               title="Delete"

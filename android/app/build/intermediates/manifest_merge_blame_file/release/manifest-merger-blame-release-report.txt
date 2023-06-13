@@ -1,0 +1,88 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.shopy"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:4:5-65
+12-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:4:22-62
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:5:5-66
+13-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:5:22-63
+14
+15    <application
+15-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:7:5-26:19
+16        android:name="com.shopy.MainApplication"
+16-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:8:7-38
+17        android:allowBackup="false"
+17-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:12:7-34
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] /home/sainish-rajput/.gradle/caches/transforms-3/3994986e4b6f29f228dfe8fb9122f0d7/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+19        android:icon="@mipmap/ic_launcher"
+19-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:10:7-41
+20        android:label="@string/app_name"
+20-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:9:7-39
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:11:7-52
+22        android:theme="@style/AppTheme" >
+22-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:13:7-38
+23        <activity
+23-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:14:7-25:18
+24            android:name="com.shopy.MainActivity"
+24-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:15:9-37
+25            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+25-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:17:9-118
+26            android:exported="true"
+26-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:20:9-32
+27            android:label="@string/app_name"
+27-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:16:9-41
+28            android:launchMode="singleTask"
+28-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:18:9-40
+29            android:windowSoftInputMode="adjustResize" >
+29-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:19:9-51
+30            <intent-filter>
+30-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:21:9-24:25
+31                <action android:name="android.intent.action.MAIN" />
+31-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:22:13-65
+31-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:22:21-62
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:23:13-73
+33-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:23:23-70
+34            </intent-filter>
+35        </activity>
+36
+37        <provider
+37-->[androidx.emoji2:emoji2:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+38            android:name="androidx.startup.InitializationProvider"
+38-->[androidx.emoji2:emoji2:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+39            android:authorities="com.shopy.androidx-startup"
+39-->[androidx.emoji2:emoji2:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+40            android:exported="false" >
+40-->[androidx.emoji2:emoji2:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+41            <meta-data
+41-->[androidx.emoji2:emoji2:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+42                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+42-->[androidx.emoji2:emoji2:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+43                android:value="androidx.startup" />
+43-->[androidx.emoji2:emoji2:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+44            <meta-data
+44-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/sainish-rajput/.gradle/caches/transforms-3/afe3a0cc82c76a7c864d2efd8324d92e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+45                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+45-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/sainish-rajput/.gradle/caches/transforms-3/afe3a0cc82c76a7c864d2efd8324d92e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+46                android:value="androidx.startup" />
+46-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/sainish-rajput/.gradle/caches/transforms-3/afe3a0cc82c76a7c864d2efd8324d92e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+47        </provider>
+48    </application>
+49
+50</manifest>
