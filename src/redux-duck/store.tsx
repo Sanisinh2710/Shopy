@@ -24,11 +24,11 @@ const productConfig = {
 
 const cartReducer = persistReducer(cartConfig, cartSlice);
 const orderReducer = persistReducer(ordersConfig, ordersSlice);
-// const productReducer = persistReducer(productConfig);
+const productReducer = persistReducer(productConfig, productsSlice);
 
 export const store = configureStore({
   reducer: {
-    products: productsSlice,
+    products: productReducer,
     cartItems: cartReducer,
     orderItems: orderReducer,
   },

@@ -20,6 +20,8 @@ const ProductOverview = (props: any) => {
     (state: RootState) => state.products.availableProducts
   );
 
+  console.log(product);
+
   return (
     <View>
       <FlatList
