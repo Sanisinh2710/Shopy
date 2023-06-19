@@ -7,7 +7,6 @@ import {
   createProduct,
   editProduct,
 } from "../../redux-duck/slices/productsSlice";
-import { log } from "react-native-reanimated";
 
 const EditProduct = (props: any) => {
   const id = props.route.params?.id;
@@ -40,7 +39,7 @@ const EditProduct = (props: any) => {
   }, [title, imageUrl, price, description]);
 
   const submithandler = () => {
-    if (disabled) {
+    if (!disabled) {
       setloading(true);
 
       setTimeout(() => {
@@ -49,15 +48,19 @@ const EditProduct = (props: any) => {
 
           dispatch(createProduct({ title, imageUrl, price, description }));
           setloading(false);
+          props.navigation.goBack();
         } else {
           dispatch(editProduct({ id, title, imageUrl, price, description }));
           setloading(false);
+          props.navigation.goBack();
         }
       }, 1500);
     }
   };
 
-  return (
+  //static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/awjogtdnqxniqqk0wpgf/air-max-270-shoes-2V5C4p.png
+
+  https: return (
     <ScrollView>
       <View style={styles.form}>
         <View style={styles.formControl}>

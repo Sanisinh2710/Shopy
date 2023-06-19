@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "760026826763",
+    "firebase_url": "https://shopy-373ae-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "shopy-373ae",
+    "storage_bucket": "shopy-373ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760026826763:android:73f25adfcac27fd2525f0e",
+        "android_client_info": {
+          "package_name": "com.shopy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760026826763-o67f6jl1mbbiku5tmgo6hodr1rjt1cvj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shopy",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "760026826763-thrtbsnllv9r3om84tq3h40lgbu9fv67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1P0MuAV0dWCAMFXvsKmHiLyxMCo5SBIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760026826763-thrtbsnllv9r3om84tq3h40lgbu9fv67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

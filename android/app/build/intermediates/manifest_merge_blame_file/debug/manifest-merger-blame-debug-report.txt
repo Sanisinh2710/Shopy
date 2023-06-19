@@ -21,8 +21,8 @@
 14-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:5:5-66
 14-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:5:22-63
 15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-15-->[com.facebook.flipper:flipper:0.125.0] /home/sainish-rajput/.gradle/caches/transforms-3/1de5dee59d1627955e42d3d6205f726e/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
-15-->[com.facebook.flipper:flipper:0.125.0] /home/sainish-rajput/.gradle/caches/transforms-3/1de5dee59d1627955e42d3d6205f726e/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+15-->[com.facebook.flipper:flipper:0.125.0] /home/sainish-rajput/.gradle/caches/transforms-3/a96b3417c959a47cd29eb1baf5d2b0ce/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.125.0] /home/sainish-rajput/.gradle/caches/transforms-3/a96b3417c959a47cd29eb1baf5d2b0ce/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
 16
 17    <application
 17-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:7:5-26:19
@@ -31,7 +31,7 @@
 19        android:allowBackup="false"
 19-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:12:7-34
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-20-->[androidx.core:core:1.7.0] /home/sainish-rajput/.gradle/caches/transforms-3/3994986e4b6f29f228dfe8fb9122f0d7/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+20-->[androidx.core:core:1.7.0] /home/sainish-rajput/.gradle/caches/transforms-3/9f958e7e364e11d0de792bdb9af4784b/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 21        android:debuggable="true"
 22        android:icon="@mipmap/ic_launcher"
 22-->/home/sainish-rajput/Shopy/android/app/src/main/AndroidManifest.xml:10:7-41
@@ -110,79 +110,79 @@
 61-->[:react-native-firebase_app] /home/sainish-rajput/Shopy/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-35
 62
 63        <activity
-63-->[com.google.android.gms:play-services-auth:20.5.0] /home/sainish-rajput/.gradle/caches/transforms-3/f171711de0fcf1eb527daf711dc70142/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:23:9-27:75
+63-->[com.google.android.gms:play-services-auth:20.5.0] /home/sainish-rajput/.gradle/caches/transforms-3/a66e9a59a63ee967a2c693511cd4aaa3/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:23:9-27:75
 64            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-64-->[com.google.android.gms:play-services-auth:20.5.0] /home/sainish-rajput/.gradle/caches/transforms-3/f171711de0fcf1eb527daf711dc70142/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:24:13-93
+64-->[com.google.android.gms:play-services-auth:20.5.0] /home/sainish-rajput/.gradle/caches/transforms-3/a66e9a59a63ee967a2c693511cd4aaa3/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:24:13-93
 65            android:excludeFromRecents="true"
-65-->[com.google.android.gms:play-services-auth:20.5.0] /home/sainish-rajput/.gradle/caches/transforms-3/f171711de0fcf1eb527daf711dc70142/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:25:13-46
+65-->[com.google.android.gms:play-services-auth:20.5.0] /home/sainish-rajput/.gradle/caches/transforms-3/a66e9a59a63ee967a2c693511cd4aaa3/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:25:13-46
 66            android:exported="false"
-66-->[com.google.android.gms:play-services-auth:20.5.0] /home/sainish-rajput/.gradle/caches/transforms-3/f171711de0fcf1eb527daf711dc70142/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:26:13-37
+66-->[com.google.android.gms:play-services-auth:20.5.0] /home/sainish-rajput/.gradle/caches/transforms-3/a66e9a59a63ee967a2c693511cd4aaa3/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:26:13-37
 67            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-67-->[com.google.android.gms:play-services-auth:20.5.0] /home/sainish-rajput/.gradle/caches/transforms-3/f171711de0fcf1eb527daf711dc70142/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:27:13-72
+67-->[com.google.android.gms:play-services-auth:20.5.0] /home/sainish-rajput/.gradle/caches/transforms-3/a66e9a59a63ee967a2c693511cd4aaa3/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:27:13-72
 68        <!--
 69            Service handling Google Sign-In user revocation. For apps that do not integrate with
 70            Google Sign-In, this service will never be started.
 71        -->
 72        <service
-72-->[com.google.android.gms:play-services-auth:20.5.0] /home/sainish-rajput/.gradle/caches/transforms-3/f171711de0fcf1eb527daf711dc70142/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:33:9-37:51
+72-->[com.google.android.gms:play-services-auth:20.5.0] /home/sainish-rajput/.gradle/caches/transforms-3/a66e9a59a63ee967a2c693511cd4aaa3/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:33:9-37:51
 73            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-73-->[com.google.android.gms:play-services-auth:20.5.0] /home/sainish-rajput/.gradle/caches/transforms-3/f171711de0fcf1eb527daf711dc70142/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:34:13-89
+73-->[com.google.android.gms:play-services-auth:20.5.0] /home/sainish-rajput/.gradle/caches/transforms-3/a66e9a59a63ee967a2c693511cd4aaa3/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:34:13-89
 74            android:exported="true"
-74-->[com.google.android.gms:play-services-auth:20.5.0] /home/sainish-rajput/.gradle/caches/transforms-3/f171711de0fcf1eb527daf711dc70142/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:35:13-36
+74-->[com.google.android.gms:play-services-auth:20.5.0] /home/sainish-rajput/.gradle/caches/transforms-3/a66e9a59a63ee967a2c693511cd4aaa3/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:35:13-36
 75            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-75-->[com.google.android.gms:play-services-auth:20.5.0] /home/sainish-rajput/.gradle/caches/transforms-3/f171711de0fcf1eb527daf711dc70142/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:36:13-107
+75-->[com.google.android.gms:play-services-auth:20.5.0] /home/sainish-rajput/.gradle/caches/transforms-3/a66e9a59a63ee967a2c693511cd4aaa3/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:36:13-107
 76            android:visibleToInstantApps="true" />
-76-->[com.google.android.gms:play-services-auth:20.5.0] /home/sainish-rajput/.gradle/caches/transforms-3/f171711de0fcf1eb527daf711dc70142/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:37:13-48
+76-->[com.google.android.gms:play-services-auth:20.5.0] /home/sainish-rajput/.gradle/caches/transforms-3/a66e9a59a63ee967a2c693511cd4aaa3/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:37:13-48
 77
 78        <activity
-78-->[com.google.android.gms:play-services-base:18.0.1] /home/sainish-rajput/.gradle/caches/transforms-3/4f703550170bfa754497acecfa6ac4ec/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+78-->[com.google.android.gms:play-services-base:18.0.1] /home/sainish-rajput/.gradle/caches/transforms-3/f9c793245c95ea736b7d97b3879631e1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
 79            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-79-->[com.google.android.gms:play-services-base:18.0.1] /home/sainish-rajput/.gradle/caches/transforms-3/4f703550170bfa754497acecfa6ac4ec/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+79-->[com.google.android.gms:play-services-base:18.0.1] /home/sainish-rajput/.gradle/caches/transforms-3/f9c793245c95ea736b7d97b3879631e1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
 80            android:exported="false"
-80-->[com.google.android.gms:play-services-base:18.0.1] /home/sainish-rajput/.gradle/caches/transforms-3/4f703550170bfa754497acecfa6ac4ec/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+80-->[com.google.android.gms:play-services-base:18.0.1] /home/sainish-rajput/.gradle/caches/transforms-3/f9c793245c95ea736b7d97b3879631e1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
 81            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-81-->[com.google.android.gms:play-services-base:18.0.1] /home/sainish-rajput/.gradle/caches/transforms-3/4f703550170bfa754497acecfa6ac4ec/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+81-->[com.google.android.gms:play-services-base:18.0.1] /home/sainish-rajput/.gradle/caches/transforms-3/f9c793245c95ea736b7d97b3879631e1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
 82
 83        <provider
-83-->[com.google.firebase:firebase-common:20.3.2] /home/sainish-rajput/.gradle/caches/transforms-3/386bd29781844c345503adc44747d86f/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+83-->[com.google.firebase:firebase-common:20.3.2] /home/sainish-rajput/.gradle/caches/transforms-3/6ffef901857482cb1327e398ce90f0fa/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
 84            android:name="com.google.firebase.provider.FirebaseInitProvider"
-84-->[com.google.firebase:firebase-common:20.3.2] /home/sainish-rajput/.gradle/caches/transforms-3/386bd29781844c345503adc44747d86f/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+84-->[com.google.firebase:firebase-common:20.3.2] /home/sainish-rajput/.gradle/caches/transforms-3/6ffef901857482cb1327e398ce90f0fa/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
 85            android:authorities="com.shopy.firebaseinitprovider"
-85-->[com.google.firebase:firebase-common:20.3.2] /home/sainish-rajput/.gradle/caches/transforms-3/386bd29781844c345503adc44747d86f/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+85-->[com.google.firebase:firebase-common:20.3.2] /home/sainish-rajput/.gradle/caches/transforms-3/6ffef901857482cb1327e398ce90f0fa/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
 86            android:directBootAware="true"
-86-->[com.google.firebase:firebase-common:20.3.2] /home/sainish-rajput/.gradle/caches/transforms-3/386bd29781844c345503adc44747d86f/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+86-->[com.google.firebase:firebase-common:20.3.2] /home/sainish-rajput/.gradle/caches/transforms-3/6ffef901857482cb1327e398ce90f0fa/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
 87            android:exported="false"
-87-->[com.google.firebase:firebase-common:20.3.2] /home/sainish-rajput/.gradle/caches/transforms-3/386bd29781844c345503adc44747d86f/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+87-->[com.google.firebase:firebase-common:20.3.2] /home/sainish-rajput/.gradle/caches/transforms-3/6ffef901857482cb1327e398ce90f0fa/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
 88            android:initOrder="100" />
-88-->[com.google.firebase:firebase-common:20.3.2] /home/sainish-rajput/.gradle/caches/transforms-3/386bd29781844c345503adc44747d86f/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+88-->[com.google.firebase:firebase-common:20.3.2] /home/sainish-rajput/.gradle/caches/transforms-3/6ffef901857482cb1327e398ce90f0fa/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
 89
 90        <meta-data
-90-->[com.google.android.gms:play-services-basement:18.2.0] /home/sainish-rajput/.gradle/caches/transforms-3/73ccaedd09882023995804e04143c030/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+90-->[com.google.android.gms:play-services-basement:18.2.0] /home/sainish-rajput/.gradle/caches/transforms-3/d19db47d931ef29dcda30d0bfc995e15/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
 91            android:name="com.google.android.gms.version"
-91-->[com.google.android.gms:play-services-basement:18.2.0] /home/sainish-rajput/.gradle/caches/transforms-3/73ccaedd09882023995804e04143c030/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+91-->[com.google.android.gms:play-services-basement:18.2.0] /home/sainish-rajput/.gradle/caches/transforms-3/d19db47d931ef29dcda30d0bfc995e15/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
 92            android:value="@integer/google_play_services_version" />
-92-->[com.google.android.gms:play-services-basement:18.2.0] /home/sainish-rajput/.gradle/caches/transforms-3/73ccaedd09882023995804e04143c030/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+92-->[com.google.android.gms:play-services-basement:18.2.0] /home/sainish-rajput/.gradle/caches/transforms-3/d19db47d931ef29dcda30d0bfc995e15/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
 93
 94        <provider
-94-->[androidx.emoji2:emoji2:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+94-->[androidx.emoji2:emoji2:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/63b092f1516c3df55854d40a247cc829/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
 95            android:name="androidx.startup.InitializationProvider"
-95-->[androidx.emoji2:emoji2:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+95-->[androidx.emoji2:emoji2:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/63b092f1516c3df55854d40a247cc829/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
 96            android:authorities="com.shopy.androidx-startup"
-96-->[androidx.emoji2:emoji2:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+96-->[androidx.emoji2:emoji2:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/63b092f1516c3df55854d40a247cc829/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
 97            android:exported="false" >
-97-->[androidx.emoji2:emoji2:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+97-->[androidx.emoji2:emoji2:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/63b092f1516c3df55854d40a247cc829/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
 98            <meta-data
-98-->[androidx.emoji2:emoji2:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+98-->[androidx.emoji2:emoji2:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/63b092f1516c3df55854d40a247cc829/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
 99                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-99-->[androidx.emoji2:emoji2:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+99-->[androidx.emoji2:emoji2:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/63b092f1516c3df55854d40a247cc829/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
 100                android:value="androidx.startup" />
-100-->[androidx.emoji2:emoji2:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+100-->[androidx.emoji2:emoji2:1.0.0] /home/sainish-rajput/.gradle/caches/transforms-3/63b092f1516c3df55854d40a247cc829/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
 101            <meta-data
-101-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/sainish-rajput/.gradle/caches/transforms-3/afe3a0cc82c76a7c864d2efd8324d92e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+101-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/sainish-rajput/.gradle/caches/transforms-3/11013e7883c2613dd928ce793d54f71c/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
 102                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-102-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/sainish-rajput/.gradle/caches/transforms-3/afe3a0cc82c76a7c864d2efd8324d92e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+102-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/sainish-rajput/.gradle/caches/transforms-3/11013e7883c2613dd928ce793d54f71c/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
 103                android:value="androidx.startup" />
-103-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/sainish-rajput/.gradle/caches/transforms-3/afe3a0cc82c76a7c864d2efd8324d92e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+103-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/sainish-rajput/.gradle/caches/transforms-3/11013e7883c2613dd928ce793d54f71c/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
 104        </provider>
 105    </application>
 106
